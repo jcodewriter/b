@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>{{title}}</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+</head>
+
+<body>
+  <div class="container pt-5">
+    <canvas id="gameCanvas"></canvas>
+  </div>
+</body>
+<script>
+  var name = '{{name}}';
+  var creator = '{{creator}}';
+  var limit = '{{limit}}';
+</script>
+<script src="/javascripts/socket.io.js"></script>
+<script src="/javascripts/game.js"></script>
+</html>
